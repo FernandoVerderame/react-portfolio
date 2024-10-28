@@ -1,0 +1,54 @@
+#jumbo {
+    padding: 100px 0;
+
+    .hello {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .title {
+        margin-top: 20px;
+        margin-bottom: 22px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 62px;
+
+        span {
+            color: #ff014f;
+        }
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+
+    .buttonGroup {
+        display: flex;
+
+        .button {
+            font-size: 14px;
+            font-weight: 500;
+            padding: 15px 38px;
+            border-radius: 6px;
+            box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+            background: linear-gradient(145deg, #e2e8ec, #ffffff);
+            color: #ff014f;
+            transition: color 0.4s ease;
+
+            &:hover {
+                background: -webkit-radial-gradient(left top, ellipse cover, #6A67CE 0%, #FC636B 100%);
+                background: radial-gradient(ellipse at left top, #6A67CE 0%, #FC636B 100%);
+                color: white;
+            }
+        }
+    }
+
+    .img {
+        height: 400px;
+        border-radius: 50%;
+    }
+}
