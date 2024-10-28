@@ -1,0 +1,21 @@
+.header {
+    padding: 10px;
+    border-bottom: 1px solid #dce1e4;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #ECF0F3;
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+
+    .logo {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .nav {
+        gap: 30px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
