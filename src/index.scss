@@ -1,1 +1,27 @@
 @import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
+body {
+    background-color: #ECF0F3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
