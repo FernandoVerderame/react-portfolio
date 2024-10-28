@@ -5,7 +5,7 @@ import imgPortfolio from "../../assets/images/img-portfolio.jpeg";
 const Jumbotron = () => {
     return (
         <>
-            <div id={`${jumbotronStyle.jumbo}`}>
+            <section id={`${jumbotronStyle.jumbo}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
@@ -29,7 +29,7 @@ const Jumbotron = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 };
