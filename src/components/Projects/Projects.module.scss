@@ -1,0 +1,96 @@
+#projects {
+    padding: 80px 0;
+
+    .title {
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .card {
+        display: flex;
+        border: none;
+        box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+        border-radius: 6px;
+
+        .leftCard {
+            flex: 1;
+            background: linear-gradient(145deg, #e2e8ec, #ffffff);
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+            padding: 30px;
+
+            .projectTitle {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .descriptionContainer {
+                max-height: 200px;
+                overflow-y: auto;
+                padding-right: 10px;
+            }
+
+            .technologiesTitle {
+                font-size: 20px;
+                font-weight: 600;
+                margin-top: 25px;
+            }
+
+            .technologiesList {
+                display: flex;
+                gap: 10px;
+
+                li {
+                    color: white;
+                    padding: 5px 10px;
+                    border-radius: 25px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    font-weight: 600;
+                    background: -webkit-radial-gradient(left top, ellipse cover, #6A67CE 0%, #FC636B 100%);
+                    background: radial-gradient(ellipse at left top, #6A67CE 0%, #FC636B 100%);
+                }
+            }
+
+            .divider {
+                border-bottom: 1px solid #dce1e4;
+                padding-top: 12px;
+            }
+
+            .btnSection {
+                display: flex;
+                justify-content: right;
+                padding-top: 12px;
+
+                .button {
+                    padding: 6px;
+                    border-radius: 50%;
+                    font-size: 35px;
+                    color: #ffffff;
+                    cursor: pointer;
+                    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+                    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+                    color: black;
+
+                    &:hover {
+                        background: -webkit-radial-gradient(left top, ellipse cover, #6A67CE 0%, #FC636B 100%);
+                        background: radial-gradient(ellipse at left top, #6A67CE 0%, #FC636B 100%);
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .rightCard {
+            flex: 1;
+            height: 450px;
+            background-color: dodgerblue;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+    }
+}
