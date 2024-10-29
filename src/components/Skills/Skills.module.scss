@@ -3,8 +3,8 @@
     background-color: #f7f7f7;
 
     .title {
-        font-size: 30px;
-        font-weight: 600;
+        font-size: 35px;
+        font-weight: 700;
         text-align: center;
         margin-bottom: 40px;
         text-transform: uppercase;
@@ -17,6 +17,7 @@
         text-align: center;
         box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
         cursor: pointer;
+        background: linear-gradient(145deg, #e2e8ec, #ffffff);
         transition: 0.2s ease-in;
 
         &:hover {
