@@ -15,7 +15,7 @@ const Jumbotron = () => {
                             <div className={`${jumbotronStyle.buttonGroup}`}>
                                 <div>
                                     <NavLink className={`${jumbotronStyle.button}`}>
-                                        Su Di me
+                                        Progetti
                                     </NavLink>
                                 </div>
                             </div>
