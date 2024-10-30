@@ -17,8 +17,12 @@ const Projects = () => {
                         {projects.map((project, index) => (
                             <div key={index} className="col-12">
                                 <div className={projectsStyle.card}>
-                                    <div className={projectsStyle.leftCard}>
 
+                                    <div className={projectsStyle.leftCard}>
+                                        <ControlledCarousel images={project.images} />
+                                    </div>
+
+                                    <div className={projectsStyle.rightCard}>
                                         <div className="top">
                                             <h3 className={projectsStyle.projectTitle}>{project.title}</h3>
                                             <div className={projectsStyle.descriptionContainer}>
@@ -40,9 +44,6 @@ const Projects = () => {
                                         </div>
                                     </div>
 
-                                    <div className={projectsStyle.rightCard}>
-                                        <ControlledCarousel images={project.images} />
-                                    </div>
                                 </div>
                             </div>
                         ))}
