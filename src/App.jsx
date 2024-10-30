@@ -3,6 +3,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Jumbotron from "./components/Jumbotron/Jumbotron.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Projects from "./components/Projects/Projects.jsx";
+import AboutMe from "./components/AboutMe/AboutMe.jsx";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <Navbar />
       <Jumbotron />
+      <AboutMe />
       <Skills />
       <Projects />
       <Footer />

@@ -1,0 +1,71 @@
+.aboutMeSection {
+    padding: 80px 0;
+    background-color: #f7f7f7;
+
+    .title {
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+
+        .keyword {
+            color: #ff014f;
+            font-weight: 500;
+        }
+    }
+
+    .buttonGroup {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .social {
+                padding: 6px;
+                border-radius: 50%;
+                font-size: 35px;
+                color: #ffffff;
+                cursor: pointer;
+                box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+                background: -webkit-radial-gradient(left top, ellipse cover, #6A67CE 0%, #FC636B 100%);
+                background: radial-gradient(ellipse at left top, #6A67CE 0%, #FC636B 100%);
+                color: white;
+
+                &:hover {
+
+                    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+                    color: black;
+                }
+            }
+        }
+
+        .download {
+            display: flex;
+            align-items: center;
+
+            font-size: 14px;
+            font-weight: 500;
+            padding: 15px 38px;
+            border-radius: 6px;
+            box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+            background: linear-gradient(145deg, #e2e8ec, #ffffff);
+            color: black;
+
+            &:hover {
+                background: -webkit-radial-gradient(left top, ellipse cover, #6A67CE 0%, #FC636B 100%);
+                background: radial-gradient(ellipse at left top, #6A67CE 0%, #FC636B 100%);
+                color: white;
+            }
+        }
+    }
+}
