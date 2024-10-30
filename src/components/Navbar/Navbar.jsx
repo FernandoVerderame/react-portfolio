@@ -1,17 +1,14 @@
 import { NavLink } from "react-router-dom";
 import { scroller } from 'react-scroll';
 import navbarStyle from './Navbar.module.scss';
-import { useState } from "react";
 
 const Navbar = () => {
 
-    const [activeSection, setActiveSection] = useState('');
-
     const scrollToSection = (sectionId) => {
-        setActiveSection(sectionId);
         scroller.scrollTo(sectionId, {
             duration: 800,
             delay: 0,
+            offset: -100,
         });
     };
 
@@ -21,7 +18,8 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg">
                     <div className="container">
                         <div className="left-nav">
-                            <NavLink className={`${navbarStyle.logo}`} to="/">
+                            <NavLink className={`${navbarStyle.logo}`}
+                                onClick={() => scrollToSection('jumbotron')}>
                                 Fernando
                             </NavLink>
                         </div>

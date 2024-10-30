@@ -1,11 +1,20 @@
 import { NavLink } from "react-router-dom";
 import jumbotronStyle from "./Jumbotron.module.scss";
 import imgPortfolio from "../../assets/images/img-portfolio.jpeg";
+import { scroller } from "react-scroll";
 
 const Jumbotron = () => {
+
+    const scrollToSection = (sectionId) => {
+        scroller.scrollTo(sectionId, {
+            duration: 800,
+            delay: 0,
+        });
+    };
+
     return (
         <>
-            <section id={`${jumbotronStyle.jumbo}`}>
+            <section id="jumbotron" className={`${jumbotronStyle.jumboSection}`}>
                 <div className="container">
                     <div className="row g-5">
                         <div className="col-lg-6">
@@ -14,7 +23,9 @@ const Jumbotron = () => {
                             <p className={`${jumbotronStyle.description}`}>Costruisco soluzioni web che uniscono creatività e funzionalità, perché credo che ogni linea di codice possa migliorare il modo in cui le persone vivono il digitale.</p>
                             <div className={`${jumbotronStyle.buttonGroup}`}>
                                 <div>
-                                    <NavLink className={`${jumbotronStyle.button}`}>
+                                    <NavLink
+                                        className={`${jumbotronStyle.button}`}
+                                        onClick={() => scrollToSection('projects')}>
                                         Progetti
                                     </NavLink>
                                 </div>
