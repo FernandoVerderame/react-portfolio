@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import carouselStyle from "./ControlledCarousel.module.scss";
 
 function ControlledCarousel({ images }) {
     const [index, setIndex] = useState(0);
@@ -19,12 +20,8 @@ function ControlledCarousel({ images }) {
                     <img
                         src={img.image}
                         alt={`Slide-${img.id}`}
-                        style={{ objectFit: "cover", height: "450px", width: "100%" }}
+                        className={`${carouselStyle.image}`}
                     />
-                    <Carousel.Caption>
-                        <h3>Slide {img.id}</h3>
-                        <p>Descrizione della slide {img.id}</p>
-                    </Carousel.Caption>
                 </Carousel.Item>
             ))}
         </Carousel>
