@@ -7,7 +7,7 @@ const Projects = () => {
 
     return (
         <>
-            <section id={`${projectsStyle.projects}`}>
+            <section id="projects" className={`${projectsStyle.projectsSection}`}>
                 <div className="container">
                     <div className="row g-5 align-items-center justify-content-center">
                         <div className="col-12">

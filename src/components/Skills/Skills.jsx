@@ -4,7 +4,7 @@ import skills from "../../database/skills.js"
 const Skills = () => {
     return (
         <>
-            <section id={`${skillsStyle.skills}`}>
+            <section id="skills" className={`${skillsStyle.skillsSection}`}>
                 <div className="container">
                     <div className="row g-3 align-items-center justify-content-center">
                         <div className="col-12">
