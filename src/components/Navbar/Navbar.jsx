@@ -20,7 +20,7 @@ const Navbar = () => {
                         <div className="left-nav">
                             <NavLink className={`${navbarStyle.logo}`}
                                 onClick={() => scrollToSection('jumbotron')}>
-                                Fernando
+                                Portfolio
                             </NavLink>
                         </div>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
                                     <NavLink
                                         className={({ isActive }) => `nav-link ${isActive ? navbarStyle.active : ''}`}
                                         onClick={() => scrollToSection('skills')}
-                                    >Abilità</NavLink>
+                                    >Skills</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink

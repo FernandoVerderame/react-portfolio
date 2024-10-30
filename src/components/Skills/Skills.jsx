@@ -8,7 +8,7 @@ const Skills = () => {
                 <div className="container">
                     <div className="row g-3 align-items-center justify-content-center">
                         <div className="col-12">
-                            <h2 className={`${skillsStyle.title}`}>Abilità</h2>
+                            <h2 className={`${skillsStyle.title}`}>Skills</h2>
                         </div>
 
                         {skills.map(({ label, url }, i) => (
