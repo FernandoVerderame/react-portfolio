@@ -12,7 +12,7 @@ const Skills = () => {
                         </div>
 
                         {skills.map(({ label, url }, i) => (
-                            <div className="col-2" key={i}>
+                            <div className="col-sm-6 col-md-4 col-lg-2" key={i}>
                                 <div className={`card ${skillsStyle.card}`}>
                                     <h4 className={`${skillsStyle.label}`}>{label}</h4>
                                     <figure className="d-flex justify-content-center align-items-center m-0">
