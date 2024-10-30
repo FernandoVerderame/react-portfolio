@@ -9,6 +9,7 @@ const Jumbotron = () => {
         scroller.scrollTo(sectionId, {
             duration: 800,
             delay: 0,
+            offset: -100
         });
     };
 
