@@ -1,6 +1,7 @@
 import projectsStyle from "./Projects.module.scss";
 import { FaGithub as GitHub } from "react-icons/fa";
-import projects from "../../database/projects.js"
+import projects from "../../database/projects.js";
+import ControlledCarousel from "../Carousel/ControlledCarousel.jsx";
 
 const Projects = () => {
 
@@ -40,7 +41,7 @@ const Projects = () => {
                                     </div>
 
                                     <div className={projectsStyle.rightCard}>
-
+                                        <ControlledCarousel images={project.images} />
                                     </div>
                                 </div>
                             </div>
