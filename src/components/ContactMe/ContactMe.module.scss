@@ -1,0 +1,58 @@
+.contactMeSection {
+    padding: 80px 0;
+
+    .title {
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .card {
+        text-align: center;
+        margin-top: 0;
+
+        h3 {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .buttonGroup {
+            display: flex;
+            justify-content: center;
+
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                .social {
+                    padding: 6px;
+                    border-radius: 50%;
+                    font-size: 35px;
+                    color: #ffffff;
+                    cursor: pointer;
+                    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+                    background: -webkit-radial-gradient(left top, ellipse cover, #6A67CE 0%, #FC636B 100%);
+                    background: radial-gradient(ellipse at left top, #6A67CE 0%, #FC636B 100%);
+                    color: white;
+
+                    &:hover {
+
+                        background: linear-gradient(145deg, #e2e8ec, #ffffff);
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

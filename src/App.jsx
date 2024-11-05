@@ -4,6 +4,7 @@ import Jumbotron from "./components/Jumbotron/Jumbotron.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import AboutMe from "./components/AboutMe/AboutMe.jsx";
+import ContactMe from "./components/ContactMe/ContactMe.jsx";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Projects />
+      <ContactMe />
       <Footer />
     </>
   );

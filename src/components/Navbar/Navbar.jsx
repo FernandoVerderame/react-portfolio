@@ -47,7 +47,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <NavLink
                                         className={({ isActive }) => `nav-link ${isActive ? navbarStyle.active : ''}`}
-                                        onClick={() => scrollToSection('contact-us')}
+                                        onClick={() => scrollToSection('contact-me')}
                                     >Contattami</NavLink>
                                 </li>
                             </ul>
