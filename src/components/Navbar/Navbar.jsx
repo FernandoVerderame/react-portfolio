@@ -25,7 +25,7 @@ const Navbar = () => {
                         </div>
 
                         <div className="right-nav d-flex justify-content-end">
-                            <ul className={`navbar-nav ${navbarStyle.nav}`}>
+                            <ul className={`navbar-nav d-flex flex-row ${navbarStyle.nav}`}>
                                 <li className="nav-item">
                                     <NavLink
                                         className={({ isActive }) => `nav-link ${isActive ? navbarStyle.active : ''}`}
