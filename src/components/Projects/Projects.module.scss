@@ -16,6 +16,7 @@
         box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
         border-radius: 6px;
         flex-direction: column;
+        margin: 40px 0;
 
         @media (min-width: 992px) {
             flex-direction: row;
@@ -25,11 +26,12 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            flex-basis: 50%;
+            flex-basis: 40%;
+            height: 400px;
             background: linear-gradient(145deg, #e2e8ec, #ffffff);
             border-top-right-radius: 6px;
             border-bottom-right-radius: 6px;
-            padding: 30px;
+            padding: 25px 30px;
 
             @media (max-width: 992px) {
                 border-top-right-radius: 0px;
@@ -42,24 +44,21 @@
             }
 
             .descriptionContainer {
-                max-height: 150px;
+                max-height: 140px;
                 overflow-y: auto;
                 padding-right: 10px;
-
-                p {
-                    margin-bottom: 20px;
-                }
+                line-height: 22px;
             }
 
             .technologiesTitle {
-                font-size: 20px;
+                font-size: 18px;
                 font-weight: 600;
             }
 
             .technologiesList {
                 display: flex;
                 flex-wrap: wrap;
-                gap: 5px;
+                gap: 10px;
 
                 li {
                     color: white;
@@ -103,7 +102,7 @@
         }
 
         .leftCard {
-            flex-basis: 50%;
+            flex-basis: 60%;
             height: 400px;
             background-color: dodgerblue;
             border-top-left-radius: 6px;
