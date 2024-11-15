@@ -46,7 +46,7 @@ function ControlledCarousel({ images }) {
                             {images.map((img) => (
                                 <Carousel.Item key={img.id}>
                                     <img
-                                        src={`/images/${img.image}`}
+                                        src={`/images/projects/${img.image}`}
                                         alt={`Slide-${img.id}`}
                                         className={`${carouselStyle.fullscreenImage}`}
                                     />
