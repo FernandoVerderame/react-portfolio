@@ -25,3 +25,11 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+    background-color: rgba(169, 169, 169, 0.2);
+    transition: background-color 0.3s ease;
+    width: 50px;
+    padding: 0;
+}
