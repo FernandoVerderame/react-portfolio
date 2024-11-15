@@ -15,8 +15,8 @@ const Navbar = () => {
     return (
         <>
             <header className={`${navbarStyle.header}`}>
-                <nav className="navbar navbar-expand-lg">
-                    <div className="container">
+                <nav className={`navbar navbar-expand-lg ${navbarStyle.navbar}`}>
+                    <div className="container justify-content-center gap-2 justify-content-sm-between">
                         <div className="left-nav">
                             <NavLink className={`${navbarStyle.logo}`}
                                 onClick={() => scrollToSection('jumbotron')}>
