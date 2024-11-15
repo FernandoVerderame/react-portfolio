@@ -9,7 +9,7 @@ const Projects = () => {
         <>
             <section id="projects" className={`${projectsStyle.projectsSection}`}>
                 <div className="container">
-                    <div className="row g-5 align-items-center justify-content-center">
+                    <div className="row align-items-center justify-content-center">
                         <div className="col-12">
                             <h2 className={`${projectsStyle.title}`}>Progetti</h2>
                         </div>
@@ -39,7 +39,9 @@ const Projects = () => {
                                             </ul>
                                             <div className={projectsStyle.divider}></div>
                                             <div className={projectsStyle.btnSection}>
-                                                <GitHub className={projectsStyle.button} />
+                                                <a href={`${project.github}`}>
+                                                    <GitHub className={projectsStyle.button} />
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
