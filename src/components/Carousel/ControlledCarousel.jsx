@@ -23,7 +23,7 @@ function ControlledCarousel({ images }) {
             {/* Copertina con bottone per aprire il carosello a schermo intero */}
             <div className={carouselStyle.coverContainer}>
                 <img
-                    src={`public/images/${images[0].image}`} // Prima immagine come copertina
+                    src={`/images/${images[0].image}`} // Prima immagine come copertina
                     alt="Copertina"
                     className={carouselStyle.image}
                 />
@@ -46,7 +46,7 @@ function ControlledCarousel({ images }) {
                             {images.map((img) => (
                                 <Carousel.Item key={img.id}>
                                     <img
-                                        src={`public/images/${img.image}`}
+                                        src={`/images/${img.image}`}
                                         alt={`Slide-${img.id}`}
                                         className={`${carouselStyle.fullscreenImage}`}
                                     />
