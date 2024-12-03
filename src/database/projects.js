@@ -178,8 +178,20 @@ const projects = [
             { "id": 6, "image": "dropbox/dropbox(6).png" }
         ],
         "github": "https://github.com/FernandoVerderame/htmlcss-dropbox"
+    },
+    {
+        "id": 12,
+        "title": "Bootstrap Dashboard",
+        "description": "Questo progetto consiste nella realizzazione di un layout responsive per una dashboard, progettata come pannello di controllo per una ipotetica applicazione web. Utilizzando il framework Bootstrap 5, ho creato un design moderno, intuitivo e adattabile a dispositivi di varie dimensioni. L'obiettivo principale è stato quello di sfruttare al meglio le potenzialità offerte dalla libreria per ottenere un'interfaccia fluida e funzionale.",
+        "technologies": ["HTML", "CSS", "Bootstrap"],
+        "images": [
+            { "id": 1, "image": "bootstrap-dashboard/bootstrap-dashboard(1).png" },
+            { "id": 2, "image": "bootstrap-dashboard/bootstrap-dashboard(2).png" },
+            { "id": 3, "image": "bootstrap-dashboard/bootstrap-dashboard(3).png" },
+            { "id": 4, "image": "bootstrap-dashboard/bootstrap-dashboard(4).png" }
+        ],
+        "github": "https://github.com/FernandoVerderame/html-css-bootstrap-dashboard"
     }
-
 ]
 
 export default projects;
