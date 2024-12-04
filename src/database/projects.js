@@ -103,9 +103,22 @@ const projects = [
         ],
         "github": "https://github.com/FernandoVerderame/react-il-mio-fotoalbum"
     },
-
     {
         "id": 6,
+        "title": "Spotify",
+        "description": "Ho realizzato un clone dell’interfaccia di Spotify per mettere alla prova le mie competenze nello sviluppo front-end, concentrandomi su un design reattivo e fedele all'originale. L’obiettivo era creare una web app che si adattasse perfettamente a diverse dimensioni di schermo, mantenendo il contenuto all’interno della viewport e garantendo un’esperienza utente intuitiva. L’interfaccia è stata costruita utilizzando HTML5 e CSS3, con particolare attenzione a Flexbox per gestire il layout in modo efficace. Ho adottato un approccio desktop-first per assicurare un comportamento fluido su dispositivi di diverse risoluzioni. Per migliorare l’interattività, ho implementato effetti hover che arricchiscono la navigazione, rendendola più dinamica e coinvolgente. L’aspetto visivo è stato curato nei dettagli, con l’utilizzo del font Montserrat per conferire al progetto un aspetto moderno e accattivante. Ogni fase del progetto è stata validata tramite il W3C Validator, assicurando così conformità agli standard web e un codice pulito e semantico.",
+        "technologies": ["HTML", "CSS"],
+        "images": [
+            { "id": 1, "image": "spotify/spotify(1).png" },
+            { "id": 2, "image": "spotify/spotify(2).png" },
+            { "id": 3, "image": "spotify/spotify(3).png" },
+            { "id": 4, "image": "spotify/spotify(4).png" },
+            { "id": 5, "image": "spotify/spotify(5).png" }
+        ],
+        "github": "https://github.com/FernandoVerderame/html-css-spotifyweb"
+    },
+    {
+        "id": 7,
         "title": "Discord",
         "description": "Progetto di riproduzione del layout di Discord, focalizzato sulla costruzione della struttura base e dei blocchi principali senza contenuti dettagliati. L'obiettivo è stato sviluppare un layout pulito e organizzato, sfruttando Flexbox per creare una disposizione flessibile e responsive.",
         "technologies": ["HTML", "CSS"],
@@ -117,7 +130,7 @@ const projects = [
         "github": "https://github.com/FernandoVerderame/htmlcss-discord"
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Boolando",
         "description": "Progetto di riproduzione di una sezione del layout di Zalando, focalizzato sulla costruzione delle card prodotto e sull'interazione visiva. La struttura include un header fisso per la navigazione e una griglia di prodotti con un effetto di hover sulle immagini. Al passaggio del mouse su ciascuna card, la prima immagine del prodotto viene sostituita con la seconda, simulando una preview dinamica dell'articolo. Inoltre, il cuore per salvare il prodotto nei preferiti diventa rosso all'hover, migliorando l'interattività.",
         "technologies": ["HTML", "CSS"],
@@ -128,7 +141,7 @@ const projects = [
         "github": "https://github.com/FernandoVerderame/html-css-boolando"
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "Biglietto Treno",
         "description": "Questo progetto calcola il prezzo di un biglietto del treno in base ai chilometri da percorrere e all’età del passeggero, applicando sconti per minorenni e over 65. Realizzato con JavaScript e DOM manipulation, l’interfaccia include un form interattivo in cui gli utenti possono inserire i dati e visualizzare il prezzo finale formattato in pagina. Sono inclusi un pulsante \"Annulla\" per ripristinare i campi, un menu a tendina per selezionare l’età e funzionalità extra per generare casualmente il numero della carrozza e del biglietto, per un’esperienza più realistica e personalizzata.",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -138,7 +151,7 @@ const projects = [
         "github": "https://github.com/FernandoVerderame/js-biglietto-treno-form"
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "Campo Minato",
         "description": "Questo progetto implementa il classico gioco del Campo Minato, realizzato con JavaScript e DOM manipulation. Il gioco consiste in una griglia di celle, in cui alcune contengono bombe generate casualmente. L'utente deve cliccare sulle celle cercando di evitare quelle con le bombe. Quando viene cliccata una cella senza bomba, si colora di azzurro e il punteggio incrementa. Se si clicca su una bomba, la cella diventa rossa e il gioco termina, mostrando il punteggio finale. Il gioco offre diverse difficoltà, con diverse dimensioni della griglia (10x10, 9x9, 7x7) e una selezione casuale delle bombe. Inoltre, il gioco gestisce la fine della partita, sia per la vittoria (cliccando tutte le celle senza bombe) che per la sconfitta (cliccando una bomba).",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -152,7 +165,7 @@ const projects = [
         "github": "https://github.com/FernandoVerderame/js-campominato-dom"
     },
     {
-        "id": 10,
+        "id": 11,
         "title": "Giallo Booleano",
         "description": "Questo progetto consiste nella realizzazione di una pagina web responsive ispirata al design di \"Giallo Zafferano\", sviluppata seguendo un approccio mobile-first. Partendo dalla versione mobile, il layout è stato progressivamente adattato per garantire un’esperienza ottimale su tablet e desktop, con particolare attenzione all’organizzazione dei contenuti e alla leggibilità. Il design mobile presenta una struttura semplice e intuitiva, mentre nella modalità tablet sono stati introdotti elementi aggiuntivi come il testo descrittivo, una disposizione in griglia delle informazioni, e un aumento degli spazi per migliorare la fruizione visiva. La versione desktop enfatizza ulteriormente i contenuti con un layout più articolato, caratterizzato dall’affiancamento di video e dettagli della ricetta, l’inserimento di nomi nei bottoni social, e un’organizzazione più professionale del footer. Lo sviluppo si basa sull’integrazione di font moderni e accattivanti per un risultato visivamente coerente e piacevole. Questo lavoro rappresenta un esempio di applicazione efficace delle tecniche di Responsive Web Design, garantendo una navigazione fluida e adattabile su dispositivi di qualsiasi dimensione.",
         "technologies": ["HTML", "CSS"],
@@ -165,7 +178,7 @@ const projects = [
         "github": "https://github.com/FernandoVerderame/htmlcss-responsive-layout"
     },
     {
-        "id": 11,
+        "id": 12,
         "title": "Dropbox",
         "description": "Questo progetto prevede la realizzazione di un layout statico per il sito di Dropbox Business. La pagina è stata progettata esclusivamente per desktop a larghezza intera, concentrandosi su una struttura ordinata e facilmente leggibile. Durante lo sviluppo, è stato adottato un approccio metodico, iniziando dalla costruzione delle macroaree del layout e perfezionandole progressivamente con i dettagli. Un’attenzione particolare è stata posta sulla creazione di classi riutilizzabili, permettendo una scrittura del codice chiara, semplice e mantenibile. Il design è stato ottimizzato per garantire una suddivisione logica e visivamente accattivante delle sezioni principali, con l’utilizzo del font Open Sans, che dona un aspetto moderno e professionale alla pagina. Il progetto ha rappresentato un esercizio importante per consolidare le competenze in HTML e CSS, con un focus sulla pianificazione, sulla modularità del codice e sulla capacità di bilanciare precisione e tempi di sviluppo.",
         "technologies": ["HTML", "CSS"],
@@ -180,7 +193,7 @@ const projects = [
         "github": "https://github.com/FernandoVerderame/htmlcss-dropbox"
     },
     {
-        "id": 12,
+        "id": 13,
         "title": "Bootstrap Dashboard",
         "description": "Questo progetto consiste nella realizzazione di un layout responsive per una dashboard, progettata come pannello di controllo per una ipotetica applicazione web. Utilizzando il framework Bootstrap 5, ho creato un design moderno, intuitivo e adattabile a dispositivi di varie dimensioni. L'obiettivo principale è stato quello di sfruttare al meglio le potenzialità offerte dalla libreria per ottenere un'interfaccia fluida e funzionale.",
         "technologies": ["HTML", "CSS", "Bootstrap"],
@@ -191,7 +204,7 @@ const projects = [
             { "id": 4, "image": "bootstrap-dashboard/bootstrap-dashboard(4).png" }
         ],
         "github": "https://github.com/FernandoVerderame/html-css-bootstrap-dashboard"
-    }
+    },
 ]
 
 export default projects;
